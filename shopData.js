@@ -112,22 +112,6 @@ let data = [
   },
 
   {
-    id: 15,
-    name: 'Zucchini',
-    desc: 'Fresh zucchinis, perfect for grilling or baking.',
-    price: 25000,
-    img: './zucchini.jpeg',
-  },
-
-  {
-    id: 16,
-    name: 'Eggplants',
-    desc: 'Glossy eggplants, great for roasting or frying.',
-    price: 13860,
-    img: './eggplants.jpeg',
-  },
-
-  {
     id: 17,
     name: 'Onions',
     desc: 'Sweet and tangy red onions, perfect for salads.',
@@ -224,62 +208,6 @@ let data = [
   },
 
   {
-    id: 29,
-    name: 'Cabbage',
-    desc: 'Fresh and crisp cabbage, perfect for salads or soups.',
-    price: 32000,
-    img: './cabbage.jpeg',
-  },
-
-  {
-    id: 30,
-    name: 'Asparagus',
-    desc: 'Tender asparagus, great for grilling or steaming.',
-    price: 16700,
-    img: './asparagus.jpeg',
-  },
-
-  {
-    id: 31,
-    name: 'Leeks',
-    desc: 'Mild and sweet leeks, perfect for soups.',
-    price: 68000,
-    img: './leeks.jpeg',
-  },
-
-  {
-    id: 32,
-    name: 'Okra',
-    desc: 'Fresh and green okra, great for frying or stews.',
-    price: 5000,
-    img: './okra.jpeg',
-  },
-
-  {
-    id: 33,
-    name: 'Butternut Squash',
-    desc: 'Sweet and nutty butternut squash, ideal for roasting.',
-    price: 72000,
-    img: './butternut-squash.jpeg',
-  },
-
-  {
-    id: 34,
-    name: 'Turnips',
-    desc: 'Crisp and peppery turnips, great for roasting.',
-    price: 28000,
-    img: './turnips.jpeg',
-  },
-
-  {
-    id: 35,
-    name: 'Parsley',
-    desc: 'Fresh and aromatic parsley, perfect for garnishing.',
-    price: 50000,
-    img: './parsley.jpeg',
-  },
-
-  {
     id: 36,
     name: 'Mint',
     desc: 'Refreshing mint leaves, ideal for teas and garnishes.',
@@ -309,13 +237,5 @@ let data = [
     desc: 'Fresh thyme, essential for seasoning.',
     price: 4000,
     img: './thyme.jpeg',
-  },
-
-  {
-    id: 40,
-    name: 'Chives',
-    desc: 'Mild and fresh chives, perfect for garnishing.',
-    price: 44000,
-    img: './chives.jpeg',
   },
 ];
