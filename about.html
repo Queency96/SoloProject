@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farmers' Market</title>
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/3d02cf7ada.js"
+      crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- NavBAr here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Logo Image -->
+        <a class="navbar-brand" href="./index.html">
+          <img
+            class="m-0 p-0"
+            src="./Untitled_design-removebg-preview.png"
+            alt="Logo"
+            style="height: 50px; width: 70px" />
+        </a>
+        <!-- Brand Name -->
+        <span
+          class="navbar-text me-5"
+          style="
+            font-weight: 600;
+            font-size: 22px;
+            font-family: Sedgwick Ave Display;
+          ">
+          Farmers' Market
+        </span>
+        <!-- Toggle button for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./market.html">Market</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+          </ul>
+          <!-- Right-aligned items -->
+          <ul class="navbar-nav">
+            <li class="nav-item" id="signupNavItem">
+              <a class="nav-link" href="./signup.html" id="signupLink"
+                >Sign Up</a
+              >
+            </li>
+            <li class="nav-item" id="loginNavItem">
+              <a class="nav-link" href="./login.html" id="loginLink">Login</a>
+            </li>
+            <!-- User Icon/Image and Logout Button -->
+            <li class="nav-item dropdown d-none" id="userDropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="userDropdownMenu"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img
+                  src="user-icon.png"
+                  alt="User"
+                  style="height: 30px"
+                  id="userProfileIcon" />
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="userDropdownMenu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#" id="logoutButton">Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Intro here -->
+    <div class="container w-75">
+      <section class="mt-5 mb-5">
+        <h2>The Virtues of Farmer's Market: A Haven for Bulk Farm Produce</h2>
+        <p class="mt-5">Dear Esteemed Patrons,</p>
+        <p class="mb-5">
+          I write to you with great pleasure and anticipation, introducing
+          Farmer's Market, a revolutionary digital marketplace designed to cater
+          to your every need for fresh, locally-sourced farm produce in bulk
+          quantities. In this age where convenience and quality are paramount,
+          Farmer's Market stands as a beacon of excellence, bridging the gap
+          between hardworking farmers and discerning consumers who value the
+          freshness and integrity of their food.
+        </p>
+
+        <p class="fw-bold">A Gateway to Abundance</p>
+        <p class="mb-5">
+          Farmer's Market is not merely a website; it is a thriving ecosystem
+          that connects you directly with the very heart of agricultural
+          abundance. Our platform has been meticulously crafted to provide a
+          seamless experience, ensuring that you can effortlessly browse,
+          select, and purchase a wide variety of farm products in bulk. Whether
+          you are a restaurant owner, a grocery store manager, or an event
+          planner, our vast selection caters to all your bulk purchasing needs.
+        </p>
+        <p class="fw-bold">The Bounty of the Earth, Delivered</p>
+        <p class="mb-5">
+          Our commitment to quality begins with our farmers. Each partner farm
+          is carefully vetted to ensure they adhere to sustainable farming
+          practices, thereby guaranteeing that every product on our platform is
+          of the highest quality. From organic vegetables and fruits to dairy
+          products, grains, and meats, Farmer's Market brings the bounty of the
+          earth directly to your doorstep. Our logistics network is designed to
+          maintain the freshness of these products, ensuring that they reach you
+          in peak condition.
+        </p>
+
+        <p class="fw-bold">A User-Friendly Experience</p>
+        <p class="mb-5">
+          Navigating the Farmer's Market website is a breeze, thanks to its
+          intuitive design and user-centric features. Our search functionality
+          allows you to easily find specific products, while detailed product
+          descriptions and high-resolution images give you a clear understanding
+          of what you are purchasing. Additionally, our bulk pricing model
+          offers significant savings, making it an economical choice for
+          large-scale buyers.
+        </p>
+
+        <p class="fw-bold">Empowering Farmers, Enriching Lives</p>
+        <p class="mb-5">
+          By choosing Farmer's Market, you are not only ensuring the best for
+          your business or household but also supporting the backbone of our
+          community – the farmers. Our platform provides farmers with a reliable
+          market for their produce, allowing them to focus on what they do best:
+          cultivating the land and producing wholesome food. This symbiotic
+          relationship fosters a more sustainable and equitable food system,
+          benefiting all stakeholders involved.
+        </p>
+
+        <p class="fw-bold">Unwavering Commitment to Sustainability</p>
+        <p class="mb-5">
+          At Farmer's Market, we understand the importance of preserving our
+          environment for future generations. Our dedication to sustainability
+          is reflected in every aspect of our operations. From encouraging
+          eco-friendly farming practices to minimizing packaging waste, we
+          strive to reduce our carbon footprint and promote a healthier planet.
+        </p>
+
+        <p class="fw-bold">Join the Farmer's Market Community</p>
+        <p class="mb-5">
+          We invite you to explore Farmer's Market and experience the myriad
+          benefits it offers. Our dedicated customer support team is always on
+          hand to assist you with any inquiries and ensure your shopping
+          experience is nothing short of exceptional. By joining our community,
+          you become part of a movement that values quality, sustainability, and
+          the well-being of our local farmers.
+        </p>
+
+        <p>
+          In conclusion, Farmer's Market is more than just a place to buy farm
+          products in bulk; it is a commitment to excellence, a promise of
+          freshness, and a testament to the power of community. We look forward
+          to serving you and becoming your trusted partner in all your bulk
+          purchasing needs.
+        </p>
+
+        <p class="mt-5">Yours in health and prosperity,</p>
+        <p>
+          <span class="fw-bolder fs-5">Da'Guy Olami </span><br />
+          Founder and CEO, Farmer's Market.
+        </p>
+      </section>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript file -->
+    <script src="./main.js"></script>
+  </body>
+</html>

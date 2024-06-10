@@ -340,3 +340,7 @@ i {
   font-weight: bold;
   padding: 10px;
 }
+
+section p {
+  font-size: 18px;
+}
